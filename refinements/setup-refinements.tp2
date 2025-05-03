@@ -105,7 +105,7 @@ ALWAYS
 
   // Convert strings to UTF-8 for BG2EE
   // Using default_language is mandatory since english is used as fallback in case of missing string in a language
-  ACTION_DEFINE_ARRAY tb#noconvert BEGIN prompts END
+  ACTION_DEFINE_ARRAY tb#noconvert BEGIN prompts install END
   ACTION_DEFINE_ARRAY tb#reload BEGIN setup miscscripts END
   LAF HANDLE_CHARSETS
     INT_VAR
@@ -159,7 +159,11 @@ LANGUAGE ~Russian, by Aerie.ru, Prowler, Deneiris, Austin & Arcanecoast.ru~ ~lan
                                        ~refinements/languages/russian/setup.tra~
                                        ~refinements/languages/russian/miscscripts.tra~
                                        ~refinements/languages/russian/prompts.tra~
-
+									   
+LANGUAGE ~Simplified Chinese, by redrumcha & MephistoSatanDevil~ ~languages/schinese~
+                                       ~refinements/languages/schinese/install.tra~
+                                       ~refinements/languages/schinese/miscscripts.tra~
+                                       ~refinements/languages/schinese/prompts.tra~
 
 //////////////////////////////////////////////////////////////////////////////////
 //Deprecated placeholders
